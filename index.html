@@ -1,44 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head><!-- This is content that is for the tab -->
+    <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="style.css">
-            <title>Our First Offical Project</title>
+            <link rel="stylesheet" href="styles.css">
+            <title>My First Offical Project</title>
     </head>
         <body>
-            <header>
-              <h1>
-                
-              </h1>
+            <header class="header-background">
               <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contacts">Contacts</a></li>
                 </ul>
-            </nav>
+            </nav><br><br>
+            <div class="header-content">
+              <h1>Hi, My name is Phamela Mhlaba</h1><br>
+                <p>Full Stack Student | Tech Enthusiast | Lifelong learner</p>
+            </div>
             </header>
             <main>
-              <section id="home">
-                <h2>Portfolio Introduction</h2>
-                <p></p>
-                <img src="link" alt="Description of your image">
-              </section>
               <section id="about">
-                <h2>About Me</h2>
-                <p> Expand more about yourself, eg your hobbies, previous work experience etc</p>
-                <img src="link" alt="Descriptive of the image">
-              </section>
+                <h2>About Me</h2><br><br>
+                  <img src="https://media.licdn.com/dms/image/D4D03AQGEETF9SmHP7A/profile-displayphoto-shrink_200_200/0/1708716878521?e=2147483647&v=beta&t=2d8yqIIrMB3o1oLXtS5E06eWLKsfK864AAlwh9YKDow" alt="image of myself" class="profile-photo"><br>
+                  <p>Hello there! I'm a Full Stack Developer Student at Re:Coded in partnership with Project Y.</p>
+                  <p>I am an Aspring Full Stack Developer. I am so greatful to be part of Re:Coded because I am</p>
+                  <p>getting trained to be one of  the best Developer in Africa. So far the the journey has been</p>
+                  <p>challeging since I started three weeks ago, but guess what I am enjoying every moment of it,</p>
+                  <p>basically enjoying the pain. On a serious note, I believe I have finally found something that </p>
+                  <p>I enjoy learning and that challenges  my creativity, problem-solving, resileince and grit.One thing</p>
+                  <p>that I know for sure is that I will graduate from Re:Coded and I will conquer Javascript because</p>
+                  <p>it is defintely throwing hands LOL but let me repeat myself <strong>NO JAVASCRIPT FORMED AGAINST ME WILL PROSPER!</strong></p><br><br>
+                  <h2>Fun facts about me</h2>
+                  <p>I have a degree from University of Cape Town(UCT). I studied Bachelor of Social Science and</p>
+                  <p>Specialized Political Science and Governance. I am greatful for the knowledge and skills that</p>
+                  <p>I gained but I guess it was not my thing hence I pivoted into Tech and this was the best decision</p>
+                  <p>that I have made.</p>
+              </section><br><br>
+              <section id="portfolio">
+                <h2>Companies I would love to work for!</h2><br><br>
+              <div class="as-featured-in-logos scroll reverse"><img
+                  src="https://assets-global.website-files.com/64881493c58d392b8a6d2319/6488430d6d86eeed2c319d5b_Over%20The%20Rainbow%20Logo.png"
+                  loading="eager" alt="" class="marquee-image son"><img
+                  src="https://assets-global.website-files.com/64881493c58d392b8a6d2319/6488430d1e053a4ef9307bae_City%20of%20Cape%20Town%20Logo.png"
+                  loading="eager" alt="" class="marquee-image iol"><img
+                  src="https://assets-global.website-files.com/64881493c58d392b8a6d2319/6488430d881c2a703ae8dd82_Engen%20Logo.png"
+                  loading="eager" alt="" class="marquee-image ground-up engen"><img
+                  src="https://assets-global.website-files.com/64881493c58d392b8a6d2319/6488430d6d32503178100ff9_Innovation%20City%20Logo.png"
+                  loading="eager" alt="" class="marquee-image ic"><img
+                  src="https://assets-global.website-files.com/64881493c58d392b8a6d2319/6488430d21a64e293967c105_Liquid%20Thought%20Logo.png"
+                  loading="eager" alt="" class="marquee-image hide-mobile"><img
+                  src="https://assets-global.website-files.com/64881493c58d392b8a6d2319/6488430d58342c1b8707628d_Neighbourgood%20Logo.png"
+                  loading="eager" alt="" class="marquee-image hide-mobile venture-burn"><img
+                  src="https://assets-global.website-files.com/64881493c58d392b8a6d2319/6488430d19a83bea3361959c_Old%20Mutual%20Logo.png"
+                  loading="eager" alt="" class="marquee-image hide-mobile venture-burn"></div>
+                </div>
+              </section><br><br>
               <section id="contacts">
-                <h3>My contact details</h3>
-                <a href="#email adress">My email address</a>
+                <h2>Keep in touch<h2>
+                <form action="submit" method="POST">
+                  <label for="name"></label>
+                  <input type="text" id="name" name="name" placeholder="Full Names" required>
+                  <label for="name"></label>
+                  <input type="email" id="email" name="email" placeholder="Email" required> 
+                  <button type="submit">Submit</button>
+                  <label for="name"></label>
+
+                <div class="message-box">
+                  <p>Have a question? Ask below:</p>
+                  <label>
+                    <input type="text" class="question-input" placeholder="Enter your question">
+                  </label>
+                  <button class="submit-button">Submit</button>
+                </div>
+                </form>
               </section>
-              <footer>
-                <input type="name" name="text">
-                <input type="email" name="email">
-                <textarea id="message" name="message">
-              </footer>
             </main>
+              </footer>
+                <div class="copyright">
+                  <p>Copyright @ 2024  Phamela Mhlaba & Sharon Matjila. All rights reserved.</p>
+                </div>  
+            </html>
         </body>
 </html>
